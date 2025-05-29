@@ -5,6 +5,10 @@ build-backend = "maturin"
 [project]
 name = "theseus"
 description = "Beautiful compiler error messages. This is a Python wrapper for Rust's Ariadne lib."
+authors = [
+    { name = "Fábio Macêdo Mendes", email = "fabiomacedomendes@gmail.com" },
+]
+urls = { Repository = "http://github.com/fabiomacedomendes/theseus" }
 dynamic = ["version"]
 requires-python = ">=3.8"
 classifiers = [

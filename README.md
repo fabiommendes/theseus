@@ -2,7 +2,8 @@
 
 `theseus` is a library for reporting errors in text files, which is something 
 useful that you might want to do when writing a compiler. It wraps the excelent
-Rust library `ariadne` using a Pythonic interface.
+Rust library [Ariadne](https://github.com/zesterer/ariadne) using a Pythonic 
+interface.
 
 ## Installing 
 
@@ -64,7 +65,7 @@ Warning: In Lox, the print command does not require parenthesis
 ### Prerequisites
 
 - Rust (latest stable version)
-- Python (3.10 or higher)
+- Python (3.8 or higher)
 - `maturin` for building the Python package
 
 ### Project Structure
